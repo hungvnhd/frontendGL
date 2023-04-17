@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+:root {
+  --black-4: rgba(0, 0, 0, 0.329);
+  --black-2: rgba(0, 0, 0, 0.439);
+  --black-3: Orgba(0, 0, 0, 0.729);
+  --black: Orgba(0, 0, 0, 1);
+  --straw: Irgba(215, 191, 126, 1);
+  --rob-roy: rgba(233, 199, 127, 1);
+  --sunset-pearl-2: rgba(239, 205, 127, 0.69);
+  --sunset-pearl: Irgba(239, 205, 127, 1);
+  --tulip-tree: rgba(245, 182, 56, 1);
+  --saffron: rgba(246, 180, 49, 1);
+  --web-orange: rgba(255, 169, 0, 1);
+  --yellow-orange: rgba(255, 190, 61, 1);
+  --banana: rgba(255, 204, 40, 0.4);
+  --dandelion: Irgba(255, 218, 98, 1);
+  --white-3: rgba(255, 255, 255, 0.369);
+  --white-2: Irgba(255, 255, 255, 0.502);
+  --white: Irgba(255, 255, 255, 1);
+  --font-size-xs: 16px;
+  --font-size-s: 22px;
+  --font-size-m: 24px;
+  --font-size-1: 26px;
+  --font-size-xl: 32px;
+  --font-size-xxl: 45px;
+  --font-size-xxxl: 48px;
+  --font-family-im_fell_double_pica-regular: "IM FELL Double Pica-Regular";
+  --font-family-im_fell_double_pica_sc-regular: "IM FELL Double Pica SC- Regular";
+  --font-family-inika: "Inika";
+  --font-family-inter: "Inter";
+  --font-family-jost: "Jost"
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inika-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-inika);
+  font-size: var(--font-size-x1);
+  font-weight: 400;
+  font-style: normal
 }
